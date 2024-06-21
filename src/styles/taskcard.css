@@ -1,0 +1,68 @@
+.task-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: grab;
+}
+
+.task-card select{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.task-card option{
+    color: black;
+}
+
+.task-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+
+.task-title-container p{
+    overflow: hidden;
+    width: 70%;
+}
+
+.task-title-container span, .task-title-container p{
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-title-container input[type="text"] {
+    width: 70%;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.dragging {
+    opacity: 0.7;
+}
+
+.task-act-btn {
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 1px;
+}
+
+.task-act-btn-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+

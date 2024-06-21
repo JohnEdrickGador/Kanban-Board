@@ -1,0 +1,41 @@
+.tasks-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 90vh;
+}
+
+.task-columns {
+    border-radius: 10px;
+    width: 31%;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.task-columns.backlog {
+    background: rgba(167,58,58,0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+}
+
+.task-columns.in-progress {
+    background: rgba(38, 167, 216, 0.42745098039215684);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+}
+
+.task-columns.done {
+    background: rgba(8, 169, 60, 0.42745098039215684);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+}
+
